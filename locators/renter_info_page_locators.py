@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class ForWhomPageLocators:
+class RenterInfoPageLocators:
     NAME = (By.XPATH, '//input[@placeholder="* Имя"]')
     SURNAME = (By.XPATH, '//input[@placeholder="* Фамилия"]')
     ADDRESS = (By.XPATH, '//input[@placeholder="* Адрес: куда привезти заказ"]')
