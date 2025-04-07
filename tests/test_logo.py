@@ -1,7 +1,5 @@
 import allure
-import pytest
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 from pages.main_page import MainPage
 from url import *

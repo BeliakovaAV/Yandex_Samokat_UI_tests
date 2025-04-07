@@ -2,7 +2,10 @@ class CredentialsFirstSet:
     name = 'Кирилл'
     surname = 'Василенко'
     address = 'Программистов, 28'
+    metro = 'Черкизовская'
     phone_number = '89084562894'
+    comment = 'После магазина поворот направо'
+
 
 
 class CredentialsSecondSet:
