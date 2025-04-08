@@ -1,0 +1,121 @@
+[ {
+  "uid" : "68e827fc11052dff",
+  "name" : "Тест текста вопросов",
+  "time" : {
+    "start" : 1744115844425,
+    "stop" : 1744115844725,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be4a21448dc72784",
+  "name" : "Тест текста вопросов",
+  "time" : {
+    "start" : 1744115809654,
+    "stop" : 1744115809955,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "486d42a77f322eee",
+  "name" : "Тест текста вопросов",
+  "time" : {
+    "start" : 1744115897259,
+    "stop" : 1744115897559,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5767e8d53696f1e0",
+  "name" : "Тест текста вопросов",
+  "time" : {
+    "start" : 1744115823309,
+    "stop" : 1744115823616,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b8411a67ec4f063",
+  "name" : "Тест текста вопросов",
+  "time" : {
+    "start" : 1744115793742,
+    "stop" : 1744115794042,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7244e38c8dd40209",
+  "name" : "Тест позитивного сценария заказа самоката (нижняя кнопка Заказать",
+  "time" : {
+    "start" : 1744115772307,
+    "stop" : 1744115776132,
+    "duration" : 3825
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f6ea8d6c7214251",
+  "name" : "Тест позитивного сценария заказа самоката (верхняя кнопка Заказать",
+  "time" : {
+    "start" : 1744115750765,
+    "stop" : 1744115754814,
+    "duration" : 4049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4561ad444d7fac4",
+  "name" : "Тест текста вопросов",
+  "time" : {
+    "start" : 1744115872055,
+    "stop" : 1744115872375,
+    "duration" : 320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d16114ecc1e3c9a",
+  "name" : "Тест перехода по клику на лого Самокат",
+  "time" : {
+    "start" : 1744115720404,
+    "stop" : 1744115720922,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4855f33bbf194408",
+  "name" : "Тест перехода по клику на лого Яндекс",
+  "time" : {
+    "start" : 1744115734037,
+    "stop" : 1744115737381,
+    "duration" : 3344
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f73e46ce497d0ca0",
+  "name" : "Тест текста вопросов",
+  "time" : {
+    "start" : 1744115909865,
+    "stop" : 1744115910179,
+    "duration" : 314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0611de05f7fe42b",
+  "name" : "Тест текста вопросов",
+  "time" : {
+    "start" : 1744115858359,
+    "stop" : 1744115858674,
+    "duration" : 315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
