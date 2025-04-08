@@ -13,7 +13,9 @@ from selenium.webdriver.support import expected_conditions as EC
 class TestOrder:
     @allure.title("Тест позитивного сценария заказа самоката (верхняя кнопка Заказать")
     def test_order_upper_button(self, driver):
+        # Arrange
         main_page = MainPage(driver)
+        # Act
         main_page.click_on_up_order_button()
         renter_info_page = RenterInfoPage(driver)
         renter_info_page.send_keys_to_input_name(CredentialsFirstSet.name)
@@ -31,6 +33,29 @@ class TestOrder:
         yes_button_page = YesButtonPage(driver)
         yes_button_page.click_on_yes_button()
         confirmation_popup_page = ConfirmationPopupPage(driver)
+        # Assert
         assert confirmation_popup_page.confirmation_popup_check()
 
-
+    @allure.title("Тест позитивного сценария заказа самоката (нижняя кнопка Заказать")
+    def test_order_down_button(self, driver):
+        # Arrange
+        main_page = MainPage(driver)
+        # Act
+        main_page.click_on_down_order_button()
+        renter_info_page = RenterInfoPage(driver)
+        renter_info_page.send_keys_to_input_name(CredentialsSecondSet.name)
+        renter_info_page.send_keys_to_input_surname(CredentialsSecondSet.surname)
+        renter_info_page.send_keys_to_input_address(CredentialsSecondSet.address)
+        renter_info_page.choose_metro(CredentialsSecondSet.metro)
+        renter_info_page.send_keys_to_input_phone(CredentialsSecondSet.phone_number)
+        renter_info_page.click_on_further_button()
+        rent_info_page = RentInfoPage(driver)
+        rent_info_page.choose_arrival_date()
+        rent_info_page.choose_time_for_rent()
+        rent_info_page.choose_color()
+        rent_info_page.click_on_order_button()
+        yes_button_page = YesButtonPage(driver)
+        yes_button_page.click_on_yes_button()
+        confirmation_popup_page = ConfirmationPopupPage(driver)
+        # Assert
+        assert confirmation_popup_page.confirmation_popup_check()

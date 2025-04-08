@@ -32,8 +32,4 @@ class BasePage:
         element = self.wait_for_element(locator, timeout)
         return element.text
 
-   # @allure.step("Подождать и проверить, что атрибут элемента содержит текст")
-    #def wait_for_attribute(self, locator, attribute, value, timeout=10):
-     #   return WebDriverWait(self.driver, timeout).until(
-      #      EC.text_to_be_present_in_element_attribute(locator, attribute, value)
-       # )
+

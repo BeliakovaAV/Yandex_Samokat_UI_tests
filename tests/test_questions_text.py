@@ -15,6 +15,5 @@ class TestQuestionsText:
         main_page.scroll_for_questions_list()
         # Act
         main_page.click_on_question_arrow(question_text)
-        main_page.wait_for_element(MainPageLocators.ANSWERS_IN_POPUP)
         # Assert
-        assert main_page.check_question_text(expected_text)
+        assert main_page.check_question_text(question_text, expected_text)
