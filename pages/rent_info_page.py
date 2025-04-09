@@ -1,5 +1,5 @@
 import allure
-from data import *
+
 from selenium.webdriver.common.keys import Keys
 from pages.base_page import BasePage
 from locators.rent_info_page_locators import RentInfoPageLocators
