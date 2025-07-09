@@ -1,0 +1,231 @@
+{
+  "a4a7fbc858e324c54640941f817d9e1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d16114ecc1e3c9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115720404,
+        "stop" : 1744115720922,
+        "duration" : 518
+      }
+    } ]
+  },
+  "33754f1bfb46d71d214cf86b5a89561d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4561ad444d7fac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115872055,
+        "stop" : 1744115872375,
+        "duration" : 320
+      }
+    } ]
+  },
+  "56acaa35f1790c583c78b945151b9b7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68e827fc11052dff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115844425,
+        "stop" : 1744115844725,
+        "duration" : 300
+      }
+    } ]
+  },
+  "17781e8ed73f59acf89c3ecb31bde11d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "486d42a77f322eee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115897259,
+        "stop" : 1744115897559,
+        "duration" : 300
+      }
+    } ]
+  },
+  "c5e33fcda36d28140f6d11ed1f9b988e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f6ea8d6c7214251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115750765,
+        "stop" : 1744115754814,
+        "duration" : 4049
+      }
+    } ]
+  },
+  "73bc62be305b53324002fd5b28426866" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5767e8d53696f1e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115823309,
+        "stop" : 1744115823616,
+        "duration" : 307
+      }
+    } ]
+  },
+  "08ced20610a96ee8533d417a21565c73" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0611de05f7fe42b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115858359,
+        "stop" : 1744115858674,
+        "duration" : 315
+      }
+    } ]
+  },
+  "6311192b44436f1194e55f48b7029d38" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f73e46ce497d0ca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115909865,
+        "stop" : 1744115910179,
+        "duration" : 314
+      }
+    } ]
+  },
+  "c54c135fd344632694e4f683a8c09c79" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b8411a67ec4f063",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115793742,
+        "stop" : 1744115794042,
+        "duration" : 300
+      }
+    } ]
+  },
+  "5b11fc54e3416bcbc89286481dd2ecfe" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4855f33bbf194408",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'https://ya.ru/' == 'https://dzen...ww.google.com'\n  \n  - https://dzen.ru/?utm_referrer=www.google.com\n  + https://ya.ru/",
+      "time" : {
+        "start" : 1744115734037,
+        "stop" : 1744115737381,
+        "duration" : 3344
+      }
+    } ]
+  },
+  "3ff9e50ced1331a766f471fad0a147c4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7244e38c8dd40209",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115772307,
+        "stop" : 1744115776132,
+        "duration" : 3825
+      }
+    } ]
+  },
+  "1e0ea727de4134ac3e496cedff5a78bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be4a21448dc72784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744115809654,
+        "stop" : 1744115809955,
+        "duration" : 301
+      }
+    } ]
+  }
+}

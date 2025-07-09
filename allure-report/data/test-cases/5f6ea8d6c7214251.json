@@ -1,0 +1,1244 @@
+{
+  "uid" : "5f6ea8d6c7214251",
+  "name" : "Тест позитивного сценария заказа самоката (верхняя кнопка Заказать",
+  "fullName" : "tests.test_order.TestOrder#test_order_upper_button",
+  "historyId" : "c5e33fcda36d28140f6d11ed1f9b988e",
+  "time" : {
+    "start" : 1744115750765,
+    "stop" : 1744115754814,
+    "duration" : 4049
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1744115740207,
+      "stop" : 1744115750765,
+      "duration" : 10558
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Кликнуть на кнопку 'Заказать' в верхней части страницы ",
+      "time" : {
+        "start" : 1744115750765,
+        "stop" : 1744115751043,
+        "duration" : 278
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115750765,
+          "stop" : 1744115751043,
+          "duration" : 278
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115750765,
+            "stop" : 1744115750796,
+            "duration" : 31
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('class name', 'Button_Button__ra12g')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('class name', 'Button_Button__ra12g')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Ввести текст в поле ввода Имя",
+      "time" : {
+        "start" : 1744115751043,
+        "stop" : 1744115751328,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115751043,
+          "stop" : 1744115751313,
+          "duration" : 270
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115751043,
+            "stop" : 1744115751050,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Имя\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Имя\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Ввести текст в поле ввода",
+        "time" : {
+          "start" : 1744115751313,
+          "stop" : 1744115751328,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115751313,
+            "stop" : 1744115751313,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Имя\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Имя\"]')"
+        }, {
+          "name" : "keys",
+          "value" : "'Кирилл'"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'Кирилл'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Ввести текст в поле ввода Фамилия",
+      "time" : {
+        "start" : 1744115751328,
+        "stop" : 1744115751582,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115751328,
+          "stop" : 1744115751567,
+          "duration" : 239
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115751328,
+            "stop" : 1744115751350,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Фамилия\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Фамилия\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Ввести текст в поле ввода",
+        "time" : {
+          "start" : 1744115751567,
+          "stop" : 1744115751582,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115751567,
+            "stop" : 1744115751567,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Фамилия\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Фамилия\"]')"
+        }, {
+          "name" : "keys",
+          "value" : "'Василенко'"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "'Василенко'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Ввести текст в поле ввода Адрес",
+      "time" : {
+        "start" : 1744115751582,
+        "stop" : 1744115751851,
+        "duration" : 269
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115751582,
+          "stop" : 1744115751829,
+          "duration" : 247
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115751582,
+            "stop" : 1744115751598,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Адрес: куда привезти заказ\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Адрес: куда привезти заказ\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Ввести текст в поле ввода",
+        "time" : {
+          "start" : 1744115751829,
+          "stop" : 1744115751851,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115751829,
+            "stop" : 1744115751829,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Адрес: куда привезти заказ\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Адрес: куда привезти заказ\"]')"
+        }, {
+          "name" : "keys",
+          "value" : "'Программистов, 28'"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "address",
+        "value" : "'Программистов, 28'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Выбрать станцию метро",
+      "time" : {
+        "start" : 1744115751851,
+        "stop" : 1744115751945,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввести текст в поле ввода",
+        "time" : {
+          "start" : 1744115751851,
+          "stop" : 1744115751930,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115751851,
+            "stop" : 1744115751867,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Станция метро\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Станция метро\"]')"
+        }, {
+          "name" : "keys",
+          "value" : "'Черкизовская'"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "metro",
+        "value" : "'Черкизовская'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Ввести цифры в поле ввода Телефон",
+      "time" : {
+        "start" : 1744115751945,
+        "stop" : 1744115752183,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115751945,
+          "stop" : 1744115752167,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115751945,
+            "stop" : 1744115751952,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Телефон: на него позвонит курьер\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Телефон: на него позвонит курьер\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Ввести текст в поле ввода",
+        "time" : {
+          "start" : 1744115752167,
+          "stop" : 1744115752183,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115752167,
+            "stop" : 1744115752167,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Телефон: на него позвонит курьер\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Телефон: на него позвонит курьер\"]')"
+        }, {
+          "name" : "keys",
+          "value" : "'89084562894'"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'89084562894'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Кликнуть на кнопку Далее",
+      "time" : {
+        "start" : 1744115752183,
+        "stop" : 1744115752414,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115752183,
+          "stop" : 1744115752414,
+          "duration" : 231
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115752183,
+            "stop" : 1744115752198,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//*[@id=\"root\"]//button[text()=\"Далее\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//*[@id=\"root\"]//button[text()=\"Далее\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Выбрать дату доставки",
+      "time" : {
+        "start" : 1744115752414,
+        "stop" : 1744115752899,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115752414,
+          "stop" : 1744115752667,
+          "duration" : 253
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115752414,
+            "stop" : 1744115752414,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"* Когда привезти самокат\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"* Когда привезти самокат\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Подождать видимости элемента",
+        "time" : {
+          "start" : 1744115752667,
+          "stop" : 1744115752667,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('class name', 'react-datepicker__month-container')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115752667,
+          "stop" : 1744115752899,
+          "duration" : 232
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115752667,
+            "stop" : 1744115752683,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//div[text()='9']\")"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//div[text()='9']\")"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Выбрать срок аренды",
+      "time" : {
+        "start" : 1744115752899,
+        "stop" : 1744115753867,
+        "duration" : 968
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115752899,
+          "stop" : 1744115753114,
+          "duration" : 215
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115752899,
+            "stop" : 1744115752899,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//*[@id=\"root\"]//div[text()=\"* Срок аренды\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//*[@id=\"root\"]//div[text()=\"* Срок аренды\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Подождать видимости элемента",
+        "time" : {
+          "start" : 1744115753114,
+          "stop" : 1744115753114,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//div[@class='Dropdown-option' and text()='четверо суток']\")"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115753114,
+          "stop" : 1744115753867,
+          "duration" : 753
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115753114,
+            "stop" : 1744115753130,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//div[@class='Dropdown-option' and text()='четверо суток']\")"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//div[@class='Dropdown-option' and text()='четверо суток']\")"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Выбрать цвет самоката",
+      "time" : {
+        "start" : 1744115753867,
+        "stop" : 1744115754083,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115753867,
+          "stop" : 1744115754083,
+          "duration" : 216
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115753867,
+            "stop" : 1744115753867,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//*[@id=\"black\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//*[@id=\"black\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Ввести данные в поле ввода Комментарий для курьера",
+      "time" : {
+        "start" : 1744115754083,
+        "stop" : 1744115754367,
+        "duration" : 284
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115754083,
+          "stop" : 1744115754329,
+          "duration" : 246
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115754083,
+            "stop" : 1744115754083,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"Комментарий для курьера\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"Комментарий для курьера\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Ввести текст в поле ввода",
+        "time" : {
+          "start" : 1744115754329,
+          "stop" : 1744115754367,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115754329,
+            "stop" : 1744115754329,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//input[@placeholder=\"Комментарий для курьера\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//input[@placeholder=\"Комментарий для курьера\"]')"
+        }, {
+          "name" : "keys",
+          "value" : "'После магазина поворот направо'"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "comment",
+        "value" : "'После магазина поворот направо'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Кликнуть на кнопку 'Заказать'",
+      "time" : {
+        "start" : 1744115754367,
+        "stop" : 1744115754598,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115754367,
+          "stop" : 1744115754598,
+          "duration" : 231
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115754367,
+            "stop" : 1744115754367,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//button[contains(@class, \"Button_Middle__1CSJM\") and text()=\"Заказать\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//button[contains(@class, \"Button_Middle__1CSJM\") and text()=\"Заказать\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Кликнуть кнопку Да",
+      "time" : {
+        "start" : 1744115754598,
+        "stop" : 1744115754814,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент",
+        "time" : {
+          "start" : 1744115754598,
+          "stop" : 1744115754814,
+          "duration" : 216
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Подождать видимости элемента",
+          "time" : {
+            "start" : 1744115754598,
+            "stop" : 1744115754598,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', '//*[@id=\"root\"]//button[text()=\"Да\"]')"
+          }, {
+            "name" : "timeout",
+            "value" : "10"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//*[@id=\"root\"]//button[text()=\"Да\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Проверка появления окна с сообщением об успешном создании заказа",
+      "time" : {
+        "start" : 1744115754814,
+        "stop" : 1744115754814,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Подождать видимости элемента",
+        "time" : {
+          "start" : 1744115754814,
+          "stop" : 1744115754814,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', '//div[text()=\"Заказ оформлен\"]')"
+        }, {
+          "name" : "timeout",
+          "value" : "10"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 57
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1744115754814,
+      "stop" : 1744115757617,
+      "duration" : 2803
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0807K0Q"
+  }, {
+    "name" : "thread",
+    "value" : "30660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f6ea8d6c7214251.json",
+  "parameterValues" : [ ]
+}

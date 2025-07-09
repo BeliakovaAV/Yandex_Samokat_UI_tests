@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'https://ya.ru/' == 'https://dzen...ww.google.com'\n  \n  - https://dzen.ru/?utm_referrer=www.google.com\n  + https://ya.ru/",
+      "children" : [ {
+        "name" : "Тест перехода по клику на лого Яндекс",
+        "uid" : "4855f33bbf194408",
+        "parentUid" : "59790ac2a092890b0bfc6d4775894f26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1744115734037,
+          "stop" : 1744115737381,
+          "duration" : 3344
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "59790ac2a092890b0bfc6d4775894f26"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
